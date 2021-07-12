@@ -1,0 +1,36 @@
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+
+    <style>
+    h1{
+      text-align: center;
+    }
+    h2{
+      text-align: center;
+    }
+    h3{
+      text-align: center;
+    }
+    </style>
+        <h1>
+          Hi! I'm Alessio. <br> 
+          A Statistician and a Data Scientist. 
+        </h1>
+        
+        <h2>
+          <img src = {{ "images/logo3.png" |relURL }} alt = "me logo" width= 150 height = 150 class = "center">       
+        
+        </h2>
+        
+        <h2>
+          Welcome to my portfolio website.
+        </h2>
+        
+        <h3>
+          It's made with <a href="https://bookdown.org/yihui/blogdown/"> R blogdown</a> :)
+        </h3>
+
+</main>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,26 @@
+      <footer class="footer">
+        <ul class="footer-links">
+          <!-- <li>
+            <a href="{{ .Site.RSSLink | relURL }}" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          -->
+          <li>
+          Made with
+            <a href="https://bookdown.org/yihui/blogdown/" class="footer-links-kudos"><img src="{{ "images/blog-logo.png" | relURL }}" alt="Img link to R Blogdown website" width="22" height="22">
+            </a>
+            and 
+            <a href="https://gohugo.io/" class="footer-links-kudos"><img src="{{ "images/hugo-logo.png" | relURL }}" alt="Img hugo" width="22" height="22">
+            </a>
+            by 
+          <a href="https://github.com/AlessioPeluso" class="footer-links-kudos">  <img src="{{ "images/cv2.png" | relURL }}" alt="Img me" width="22" height="22"> 
+            </a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    {{ partial "footer_highlightjs" . }}
+    {{ partial "footer_mathjax" . }}
+    {{ template "_internal/google_analytics.html" . }}
+  </body>
+</html>
