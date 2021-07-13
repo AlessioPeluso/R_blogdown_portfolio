@@ -13,7 +13,7 @@ I'm graduated at the [**University of Florence**](https://www.disia.unifi.it/) b
 
 In all my studies I've studied all the theory and practice of the statistical models underneath the *universe* of *machine learning*. 
 
-Hopefully, I'll upload some projects [here](http://localhost:4321/projects/).
+Hopefully, I'll upload some projects [here](https://alessiopeluso.netlify.app/projects/).
 
 --------------------------------------------------------------------------------
 
